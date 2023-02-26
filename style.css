@@ -1,0 +1,92 @@
+/* Universal selector -> Makes the whole website look better with no white margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* First section, containing the header, main title and placeholder image */
+
+.upper {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px 250px;
+}
+
+#header {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.main {
+  display: flex;
+  padding: 150px 0px;
+}
+
+.main-left {
+  margin-right: auto;
+}
+
+#img {
+  background-color: grey;
+}
+
+/* Second section, containing the boxes and texts */
+
+.info {
+  text-align: center;
+  padding: 30px 250px;
+}
+
+.boxes-line {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  gap: 50px;
+}
+
+.box1 {
+  border-radius: 15px;
+  border: 5px solid #3b82f6;
+  height: 150px;
+  width: 150px;
+}
+
+.box2 {
+  border-radius: 15px;
+  border: 5px solid #3b82f6;
+  height: 150px;
+  width: 150px;
+}
+
+.box3 {
+  border-radius: 15px;
+  border: 5px solid #3b82f6;
+  height: 150px;
+  width: 150px;
+}
+
+.box4 {
+  border-radius: 15px;
+  border: 5px solid #3b82f6;
+  height: 150px;
+  width: 150px;
+}
+
+.texts {
+  height: 150px;
+  width: 150px;
+  margin-top: 5px;
+}
+
+/* Third section, containing the quote */
+
+/* Fourth section, containing the Sign up form */
+
+/* Footer section */
