@@ -87,6 +87,45 @@
 
 /* Third section, containing the quote */
 
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.quotebox {
+  width: 800px;
+  font-size: 35px;
+}
+
+#namedquote {
+  margin-left: 500px;
+  font-size: 25px;
+}
+
 /* Fourth section, containing the Sign up form */
 
+.signup {
+  background-color: #3b82f6;
+  margin: 100px 300px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  padding: 60px;
+}
+
 /* Footer section */
+
+footer {
+  display: flex;
+  height: 150px;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
