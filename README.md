@@ -1,3 +1,4 @@
 # landing-page
-Landing page practice - The Odin Project
+Landing page practice - The Odin Project;
+
 Practicing flexbox mostly
